@@ -38,7 +38,7 @@ public class MapGenerator {
 		
 		try {
 										
-		    URL url = new URL("https://maps.googleapis.com/maps/api/staticmap?center="+lati+","+longi+"&zoom="+zoom+"&size=800x350&scale=4&key=AIzaSyBgb1jQ4oN-5DwbUsMWY_nHo1AMfVYJy9Q");	    
+		    URL url = new URL("https://maps.googleapis.com/maps/api/staticmap?center="+lati+","+longi+"&zoom="+zoom+"&size=800x350&scale=4&key=XXXXXXXXXXXXXXXXXXXXXXXXX");	    
 		    bufImage = ImageIO.read(url);		   
 		    imIc = new ImageIcon(bufImage);		    
 
